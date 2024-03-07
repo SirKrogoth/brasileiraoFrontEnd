@@ -1,0 +1,64 @@
+.container{
+    max-width: 720px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    background-color: gray;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    select{
+        border-radius: 0.3rem;
+        margin-bottom: 1rem;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    label{
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 20px;
+    }
+}
+
+.adicionar{
+    border-radius: 0.3rem;
+    height: 40px;
+    width: 150px;
+    border: 0;
+    background-color: darkgreen;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: darkblue;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.limpar{
+    border-radius: 0.3rem;
+    height: 40px;
+    width: 150px;
+    border: 0;
+    background-color: darkgoldenrod;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: darkgray;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.input{
+    border-radius: 0.3rem;
+    height: 20px;
+    text-align: center;
+}
