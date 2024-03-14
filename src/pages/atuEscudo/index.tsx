@@ -93,7 +93,7 @@ export default function AtualizarEscudo({ clubeList }: clubesProps) {
                           {clube.escudo && (
                             <img
                               className={styles.preview}
-                              src={"http://172.31.224.1:8081/" + clube.escudo}
+                              src={"http://192.168.2.102:8081/" + clube.escudo}
                               width={50}
                               height={50}
                             />

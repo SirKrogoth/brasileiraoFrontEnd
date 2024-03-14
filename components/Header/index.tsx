@@ -13,14 +13,14 @@ export function Header(){
                     <Link href="/">
                         Início
                     </Link>
-                    <Link href="/tabela">
-                        Tabela
-                    </Link>
-                    <Link href="/time">
-                        Jogos por time
+                    <Link href="/jogosPorClube">
+                        Jogos por clube
                     </Link>
                     <Link href="/jogos">
                         Adicionar Jogos
+                    </Link>
+                    <Link href="/atuEscudo">
+                        Atualizar Escudo
                     </Link>
                     <Link href="/entrar">
                         Entrar
